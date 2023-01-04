@@ -93,6 +93,14 @@ if (isGetCookie = typeof $request !== 'undefined') {
         bjTime = new Date(timestamp).toLocaleString('zh', {hour12: false, timeZoneName: 'long'});
         $.log(`\n === 脚本执行${bjTime} === \n`);
         $.log(` =========== 您共提供${cookieArr.length}个中青账号 ==========`);
+        
+$.log("ck:" + cookieYouth)
+        
+$.log("artbody:" + artBody)
+        
+$.log("readtime:" + readTimes)
+        
+// $.log()
         if (!cookieArr[0]) {
             $.msg($.name, '【提示】请先获取中青看点一cookie', "", {'open-url': "https://kandian.youth.cn/u/mhkjN"});
             return;
