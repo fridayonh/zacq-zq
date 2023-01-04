@@ -14,6 +14,12 @@ let ReadArr = [], timebodyVal ="";
 let YouthBody = $.getdata('youth_autoread')||$.getdata("zqgetbody_body");
 let smallzq = $.getdata('youth_cut');
 let indexLast = $.getdata('zqbody_index');
+$.log(YouthBody)
+// $.log()
+
+// $.log()
+
+// $.log()
 let artsnum = 0, videosnum = 0;
 let videoscore = 0,readscore = 0;
 let artArr = [], delbody = 0;
